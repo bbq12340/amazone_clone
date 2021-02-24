@@ -1,6 +1,6 @@
 # Full stack Amazon Clone
 
-bulding Amazon Clone with react js + firebase
+bulding Amazon Clone with reactJs(frontend) + firebase(db, backend) + express(API) + stripe(payment)
 
 # building
 
@@ -49,6 +49,7 @@ bulding Amazon Clone with react js + firebase
         - action: REMOVE_FROM_BASKET
 - right
   - subtotal checkout ( react-currency-format )
+    - proceed to checkout
   - get data from state provider
 
 4. login page
@@ -71,3 +72,23 @@ bulding Amazon Clone with react js + firebase
 - firebase init
 - npm run build
 - firebase deploy
+
+6. payment / checkout page
+
+- payment sections
+  - delivery address
+  - review items
+  - payment method
+    - payment processing
+      - stripe
+      - cloud function
+
+7. functions (full back-end)
+
+- API
+  - API
+  - App config
+  - Middlewares
+  - API routes
+  - Listen command
+- deploy API
